@@ -76,7 +76,8 @@ Consisting of 5000 images of three classes of Lung Cancer. The classes are
 3. Squamous Cell Carcinoma.
 A custom-made convolutional Neural Network has been made and trained with the images
 provided to perform a binary class classification after loading the model with tensorflow
-between, normal lung and cancerous lung.
+between, normal lung and cancerous lung. Use the python file Lung Cancer.ipynb to train the model
+with the images and save the model as "lung_cancer_detection_model"
 Initially, libraries and datasets are imported to provide the necessary tools and data for the task.
 Following this, data visualization techniques are applied to gain insights into the dataset. A
 subset of the data is reserved for validation, which is crucial for later assessing the model's
